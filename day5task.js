@@ -220,7 +220,7 @@ var reverse = function (str){
    
 }
 
-var checkIsPalindrome = function(arrays){
+var checkIsPalindrome = (arrays) => {
    var result=[];
    
    for(var i=0;i<arrays.length;i++){
