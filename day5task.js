@@ -210,7 +210,7 @@ findPrimeNumber();
 let arrays = ['boss','did','Queen','mom','dad','rock'];
  
  
-var reverse = function (str){
+var reverse = (str) => {
      
      let newString = "";
     for (let i = str.length - 1; i >= 0; i--) {
